@@ -1,43 +1,43 @@
 \chapter{Método}
 \label{cha:metodo}
 
-\section{Delineamento da pesquisa}
+\section{Natureza do estudo}
 
-Este estudo adota uma revisão bibliográfica estruturada, de caráter qualitativo e comparativo, orientada pelas recomendações do PRISMA 2020 e pela extensão PRISMA-S para relato das estratégias de busca. O objetivo é identificar como a literatura científica recente define o metaverso, quais características são recorrentes, quais tecnologias aparecem como habilitadoras e quais aplicações são descritas. A revisão é utilizada como base para confrontar a definição adotada no projeto e construir uma definição operacional em camadas.
+O presente trabalho é uma análise bibliográfica comparativa baseada em revisões científicas publicadas. Essa escolha metodológica é deliberada. Uma revisão sistemática própria exige que a busca em cada base, os registros recuperados, as duplicatas, a triagem e as exclusões sejam efetivamente executados e registrados. Como essa cadeia completa de auditoria não foi produzida para este trabalho, não é correto apresentar números de uma revisão própria como se fossem dados coletados.
 
-O PRISMA 2020 orienta o relato transparente das fontes de informação, critérios de elegibilidade, processo de seleção e síntese. O PRISMA-S acrescenta requisitos específicos para que a busca seja reproduzível, incluindo o registro da fonte, da data e da estratégia completa utilizada em cada fonte \cite{page2021,rethlefsen2021}.
+PRISMA 2020 é uma diretriz de relato para revisões sistemáticas e fornece checklist e fluxogramas para comunicar de maneira transparente o que foi feito e encontrado. A própria publicação esclarece que PRISMA 2020 não é, por si só, um método para conduzir a revisão. PRISMA-S complementa esse quadro ao detalhar o relato das buscas bibliográficas e sua reprodutibilidade. \cite{page2021,rethlefsen2021}
 
-\section{Questões de pesquisa}
+\section{Estratégia de análise}
 
-A busca foi estruturada para responder às seguintes questões:
+A análise foi organizada em quatro etapas:
+
+\begin{enumerate}
+    \item identificação de revisões científicas diretamente relacionadas ao metaverso;
+    \item verificação dos objetivos, métodos e resultados quantitativos declarados pelos próprios autores;
+    \item comparação dos focos conceituais, tecnológicos, arquiteturais e aplicacionais;
+    \item construção de uma definição operacional para o projeto.
+\end{enumerate}
+
+Os números apresentados no trabalho são sempre atribuídos às fontes que os produziram. Por exemplo, os 447 registros e 30 estudos finais pertencem à revisão de Tukur et al.; os 237 registros iniciais e 103 estudos incluídos pertencem à revisão de Boztas et al. Esses valores não são somados entre si, pois derivam de estratégias, períodos, bases e critérios diferentes. \cite{tukur2024,boztas2025}
+
+\section{Protocolo para uma futura revisão sistemática própria}
+
+Para uma revisão sistemática própria, recomenda-se registrar previamente:
 
 \begin{itemize}
-    \item \textbf{QP1:} Quais características aparecem com maior recorrência nas definições científicas de metaverso?
-    \item \textbf{QP2:} Quais características da definição adotada neste projeto são sustentadas pela literatura?
-    \item \textbf{QP3:} Quais características podem ser unificadas sem ampliar excessivamente o conceito?
-    \item \textbf{QP4:} Quais elementos devem ser tratados como tecnologias habilitadoras, e não como requisitos conceituais?
-    \item \textbf{QP5:} Quais lacunas permanecem na definição adotada e quais implicações elas trazem para o projeto?
+    \item bases de dados utilizadas;
+    \item data e horário da busca;
+    \item string completa de cada base;
+    \item filtros e limites aplicados;
+    \item número de registros retornados por cada fonte;
+    \item exportação dos resultados para uma base de rastreamento;
+    \item identificação e remoção de duplicatas;
+    \item critérios de inclusão e exclusão;
+    \item motivos das exclusões na etapa de texto completo;
+    \item lista final dos estudos incluídos.
 \end{itemize}
 
-\section{Período e fontes de informação}
-
-O protocolo foi definido para contemplar publicações em inglês entre janeiro de 2022 e setembro de 2026, período escolhido para concentrar a análise na literatura produzida após a consolidação do debate acadêmico contemporâneo sobre o metaverso.
-
-As fontes planejadas são:
-
-\begin{itemize}
-    \item Scopus;
-    \item Web of Science;
-    \item IEEE Xplore;
-    \item ACM Digital Library;
-    \item Google Scholar, como fonte complementar de recuperação.
-\end{itemize}
-
-A escolha é coerente com revisões anteriores do tema. Tukur et al. utilizaram IEEE Xplore, Scopus, ACM e Google Scholar e reportaram 447 registros após restrições de busca; Ritterbusch e Teichmann utilizaram Web of Science, JSTOR, Wiley e AIS, com 381 registros iniciais; e Boztas et al. realizaram uma revisão de definições e arquiteturas a partir do Google Scholar, iniciando com 237 registros \cite{tukur2024,ritterbusch2023,boztas2025}. Esses números pertencem às respectivas revisões e não são tratados como resultados desta pesquisa.
-
-\section{Estratégia de busca}
-
-Foi definida uma string conceitual principal:
+Uma string conceitual que pode servir como ponto de partida é:
 
 \begin{verbatim}
 ("metaverse" OR "metaverses")
@@ -48,113 +48,54 @@ AND
 OR interoperability OR persistence)
 \end{verbatim}
 
-Também foi definida uma string específica para localização de revisões:
+Essa string é apresentada como protocolo futuro, e não como uma busca já executada nas bases. A versão definitiva deverá ser adaptada à sintaxe de cada base e preservada exatamente como executada, conforme a orientação de reprodutibilidade do PRISMA-S. \cite{rethlefsen2021}
 
-\begin{verbatim}
-("metaverse" OR "metaverses")
-AND
-("systematic literature review" OR "systematic review"
-OR "scoping review" OR "literature review")
-AND
-(definition OR characteristics OR technologies OR applications)
-\end{verbatim}
+\section{Critérios propostos para a futura seleção}
 
-A sintaxe deve ser adaptada aos operadores e campos específicos de cada base, mantendo a mesma lógica conceitual. De acordo com o PRISMA-S, a versão efetivamente executada em cada base deve ser preservada exatamente como utilizada, juntamente com a data e os filtros aplicados \cite{rethlefsen2021}.
+Para a futura revisão sistemática própria, propõem-se os seguintes critérios:
 
-\section{Critérios de inclusão}
-
-Foram definidos previamente os seguintes critérios:
-
+\textbf{Inclusão:}
 \begin{itemize}
-    \item publicação entre janeiro de 2022 e setembro de 2026;
-    \item publicação em inglês;
-    \item artigo científico ou trabalho de conferência com contribuição acadêmica identificável;
-    \item relação direta com o conceito de metaverso;
-    \item discussão de pelo menos uma das dimensões de interesse: definição, características, arquitetura, tecnologias, aplicações, persistência ou interoperabilidade;
+    \item estudos científicos diretamente relacionados ao metaverso;
+    \item estudos que abordem definição, características, arquitetura, tecnologias, aplicações ou interoperabilidade;
     \item texto completo disponível para avaliação;
-    \item contribuição suficiente para responder pelo menos uma questão de pesquisa.
+    \item estudos publicados dentro do período que vier a ser definido no protocolo final.
 \end{itemize}
 
-\section{Critérios de exclusão}
-
-Foram definidos os seguintes critérios de exclusão:
-
+\textbf{Exclusão:}
 \begin{itemize}
-    \item notícias, páginas comerciais, textos de opinião e materiais sem caráter científico;
-    \item trabalhos que apenas mencionem o termo metaverso sem analisá-lo;
-    \item registros duplicados;
-    \item trabalhos sem texto completo disponível;
-    \item trabalhos sem relação suficiente com as questões de pesquisa;
-    \item estudos cujo foco seja exclusivamente uma tecnologia isolada, sem relação analítica com o metaverso;
-    \item documentos fora do período ou idioma definidos.
+    \item notícias, páginas comerciais e textos opinativos;
+    \item trabalhos que apenas mencionem o metaverso sem analisá-lo;
+    \item duplicatas;
+    \item documentos sem texto completo quando este for necessário para avaliar a elegibilidade;
+    \item estudos sem contribuição para as questões de pesquisa.
 \end{itemize}
 
-\section{Execução e auditoria da busca}
+Esses critérios são apresentados como protocolo, não como critérios já aplicados a um conjunto quantitativo próprio.
 
-A busca bibliográfica foi executada em 29 de setembro de 2026 por meio das fontes científicas e páginas públicas acessíveis durante a pesquisa. Foram localizados e verificados registros diretamente relacionados à definição, às características, às arquiteturas, às tecnologias e às aplicações do metaverso.
-
-Entretanto, os contadores ao vivo de resultados das interfaces fechadas de Scopus, Web of Science, IEEE Xplore, ACM Digital Library e Google Scholar não são expostos de maneira confiável no ambiente utilizado nesta pesquisa. Por essa razão, este trabalho não atribui números inventados a essas bases. Os quantitativos finais do fluxograma PRISMA somente poderão ser declarados como resultados desta revisão após a execução das strings nas interfaces das bases e o registro dos respectivos contadores.
-
-Essa decisão metodológica é deliberada: um número de resultados não observado diretamente não deve ser apresentado como dado empírico da revisão.
-
-Como controle externo de plausibilidade, foram comparados os procedimentos e quantitativos publicados por revisões anteriores. Tukur et al. reportaram 212 registros provenientes do IEEE Xplore, 96 do Scopus, 39 da ACM e 100 do Google Scholar, totalizando 447 registros após restrições específicas; 141 duplicatas foram removidas e 122 estudos chegaram à avaliação de texto completo \cite{tukur2024}. Ritterbusch e Teichmann reportaram 381 registros iniciais em Web of Science, JSTOR, Wiley e AIS, chegando a 28 definições ou descrições após as etapas de seleção e buscas de citações \cite{ritterbusch2023}. Boztas et al. identificaram inicialmente 237 registros no Google Scholar, removeram 6 duplicatas e 7 registros por outros motivos, avaliaram 192 textos completos e incluíram 103 estudos \cite{boztas2025}.
-
-\section{Resultados bibliográficos verificados}
-
-A busca realizada permitiu identificar um núcleo atualizado de trabalhos particularmente relevantes para este estudo:
+\section{Tabela de rastreabilidade das evidências}
 
 \begin{table}[H]
 \centering
-\caption{Trabalhos de revisão e definição identificados na busca bibliográfica}
-\label{tab:trabalhos_verificados}
-\begin{tabular}{p{0.28\textwidth}p{0.23\textwidth}p{0.39\textwidth}}
+\caption{Rastreabilidade dos quantitativos utilizados}
+\label{tab:rastreabilidade}
+\begin{tabular}{p{0.30\textwidth}p{0.25\textwidth}p{0.30\textwidth}}
 \toprule
-\textbf{Trabalho} & \textbf{Ano} & \textbf{Contribuição para este estudo}\\
+\textbf{Informação} & \textbf{Valor} & \textbf{Fonte}\\
 \midrule
-Ritterbusch e Teichmann & 2023 & Definições e características recorrentes do metaverso.\\
-Tukur et al. & 2024 & Técnicas, tecnologias e aplicações do metaverso.\\
-Zhou, Chen e Jin & 2024 & Definição, características técnicas e comportamento do usuário em perspectiva sociotécnica.\\
-Bénaben, Congès e Fertier & 2025 & Proposta de definição unificada e framework para propriedades do metaverso.\\
-Enamorado-Díaz et al. & 2025 & Aplicações, tecnologias e desafios de engenharia de software.\\
-Boztas, Ghadafi e Ibrahim & 2025 & Definições e arquiteturas, com análise temática de 33 definições.\\
+Definições e descrições analisadas & 28 & Ritterbusch e Teichmann (2023)\\
+Registros recuperados & 447 & Tukur et al. (2024)\\
+Duplicatas removidas & 141 & Tukur et al. (2024)\\
+Textos completos avaliados & 122 & Tukur et al. (2024)\\
+Estudos primários finais & 30 & Tukur et al. (2024)\\
+Registros iniciais & 237 & Boztas et al. (2025)\\
+Estudos incluídos & 103 & Boztas et al. (2025)\\
+Definições explícitas & 33 & Boztas et al. (2025)\\
+Modelos arquiteturais & 25 & Boztas et al. (2025)\\
+Estudos primários sobre aplicações & 35 & Enamorado-Díaz et al. (2025)\\
+Publicações sobre interoperabilidade & 74 & Yang et al. (2025)\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Os trabalhos identificados reforçam uma convergência importante para o objetivo deste artigo: não há uma definição única e universalmente aceita, mas existem conjuntos recorrentes de características, tecnologias habilitadoras e dimensões sociais, econômicas e arquitetônicas \cite{ritterbusch2023,zhou2024,boztas2025}.
-
-\section{Fluxo PRISMA}
-
-O fluxograma PRISMA definitivo não é preenchido com estimativas. Nesta versão, a tabela abaixo funciona como registro metodológico do estado da busca e separa claramente dados efetivamente observados de dados que ainda dependem da execução manual nas interfaces das bases.
-
-\begin{table}[H]
-\centering
-\caption{Estado do registro PRISMA}
-\label{tab:prisma}
-\begin{tabular}{p{0.62\textwidth}p{0.23\textwidth}}
-\toprule
-\textbf{Etapa} & \textbf{Situação}\\
-\midrule
-Bases e fontes definidas & Registrado\\
-Strings conceituais definidas & Registrado\\
-Critérios de inclusão definidos & Registrado\\
-Critérios de exclusão definidos & Registrado\\
-Busca bibliográfica exploratória executada & Registrado\\
-Registros recuperados em cada base fechada & A registrar na interface da base\\
-Duplicatas & A calcular após exportação\\
-Triagem de títulos e resumos & A executar sobre o conjunto exportado\\
-Elegibilidade por texto completo & A executar sobre o conjunto exportado\\
-Estudos incluídos & A calcular após a elegibilidade\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Portanto, esta versão não apresenta o quadro como um PRISMA numérico completo. O preenchimento definitivo depende dos contadores e dos registros exportados das bases. Essa distinção preserva a rastreabilidade e evita que números de revisões anteriores sejam confundidos com resultados desta pesquisa.
-
-\section{Procedimento de análise}
-
-Após a seleção definitiva, cada estudo será classificado segundo cinco dimensões: (i) definição do metaverso; (ii) características estruturais; (iii) tecnologias habilitadoras; (iv) aplicações e setores; e (v) desafios ou limitações.
-
-A síntese será realizada por comparação temática. Características conceituais, como ambiente compartilhado, interação, identidade digital, persistência e imersão, serão separadas das tecnologias que podem viabilizá-las, como realidade estendida, inteligência artificial, computação distribuída e tecnologias descentralizadas. Essa separação evita transformar uma tecnologia específica em requisito universal do conceito.
-
-A etapa final consistirá na comparação entre a definição adotada no projeto e os padrões encontrados na literatura. A definição resultante será apresentada como uma definição operacional para o projeto, e não como uma afirmação de que existe uma única definição científica definitiva.
+Essa tabela é uma medida de controle de qualidade do artigo: nenhum desses números é tratado como resultado de uma nova busca realizada pelo presente trabalho.
