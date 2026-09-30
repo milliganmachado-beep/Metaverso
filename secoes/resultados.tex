@@ -1,34 +1,40 @@
 \chapter{Resultados}
 \label{cha:resultados}
 
-\section{Resultados da busca bibliográfica}
+\section{Resultados da análise da literatura}
 
-A busca bibliográfica realizada em 29 de setembro de 2026 confirmou a existência de um conjunto relevante e relativamente recente de revisões sobre o metaverso, especialmente em torno de quatro eixos: definição conceitual, arquitetura, tecnologias e aplicações.
+A análise das revisões selecionadas mostra convergência em um ponto fundamental: o metaverso é tratado na literatura como um conceito multidimensional, mas os estudos não enfatizam necessariamente as mesmas dimensões.
 
-A literatura de Ritterbusch e Teichmann concentra-se na definição do conceito e identificou 28 definições ou descrições após o processo de seleção e buscas de citações. Tukur et al. concentraram-se nas técnicas, tecnologias e aplicações e chegaram a 30 estudos primários em sua revisão de escopo. Mais recentemente, Boztas et al. analisaram 103 estudos, dos quais 33 continham definições explícitas e 25 apresentavam modelos arquiteturais. Esses resultados mostram que a discussão acadêmica já ultrapassou a fase de simplesmente perguntar o que é o metaverso e passou a discutir também como seus ambientes podem ser estruturados e implementados \cite{ritterbusch2023,tukur2024,boztas2025}.
+Ritterbusch e Teichmann analisaram 28 definições e descrições. Boztas et al. analisaram 103 estudos, encontrando 33 definições explícitas e 25 modelos arquiteturais. Esses resultados sustentam a conclusão de que definição e arquitetura são dimensões relacionadas, mas não idênticas. \cite{ritterbusch2023,boztas2025}
 
-Zhou, Chen e Jin acrescentam uma perspectiva sociotécnica ao relacionar definições, características técnicas e comportamento dos usuários. Bénaben, Congès e Fertier propõem uma definição apoiada na evolução das tecnologias imersivas e em um framework de propriedades. Enamorado-Díaz et al. analisam aplicações, tecnologias e desafios de engenharia de software \cite{zhou2024,benaben2025,enamorado2025}.
+Tukur et al. oferecem uma perspectiva complementar. Sua revisão começou com 447 registros, removeu 141 duplicatas, avaliou 122 textos completos e reteve 30 artigos como fontes primárias. Os autores identificaram 12 classes tecnológicas, quatro técnicas de desenvolvimento e aplicações em 11 setores. \cite{tukur2024}
 
-\section{Síntese temática}
+Uddin et al. analisam especificamente a convergência do metaverso com IA e blockchain, enquanto Enamorado-Díaz et al. selecionaram 35 estudos primários sobre aplicações e desafios de engenharia de software. \cite{uddin2024,enamorado2025}
 
-A comparação dos trabalhos permite organizar a literatura em três níveis:
+A revisão sobre interoperabilidade identificou 74 publicações relevantes em Web of Science e Scopus e mostrou que interoperabilidade é uma dimensão própria, com diferentes interpretações e níveis, em vez de uma característica já padronizada de todos os ambientes de metaverso. \cite{yang2025}
+
+\section{Síntese por camadas}
+
+A partir das fontes analisadas, a literatura pode ser organizada para este projeto em três camadas:
 
 \begin{enumerate}
-    \item \textbf{Nível conceitual:} o que caracteriza um metaverso, incluindo ambientes digitais compartilhados, interação, identidade, imersão e persistência;
-    \item \textbf{Nível tecnológico:} tecnologias e infraestruturas que podem viabilizar essas características, incluindo XR, inteligência artificial, computação distribuída e tecnologias descentralizadas;
-    \item \textbf{Nível aplicacional:} usos em educação, saúde, manufatura, negócios, entretenimento e outros setores.
+    \item \textbf{Camada conceitual:} definição do ambiente, interação, representação digital, espacialidade, imersão e continuidade;
+    \item \textbf{Camada tecnológica:} realidade estendida, inteligência artificial, computação, comunicação, segurança e tecnologias descentralizadas;
+    \item \textbf{Camada aplicacional:} educação, saúde, manufatura, entretenimento, negócios e outros setores.
 \end{enumerate}
 
-Essa organização sustenta a principal decisão conceitual do trabalho: tecnologias não devem ser automaticamente convertidas em requisitos da definição. A realidade virtual, por exemplo, pode intensificar a imersão, mas não precisa ser tratada como condição suficiente ou necessária para toda manifestação do metaverso.
+Essa organização é uma síntese analítica deste trabalho. Ela não é apresentada como uma classificação oficial única da literatura.
 
-\section{Comparação com a definição do projeto}
+\section{Comparação com a definição original do projeto}
 
-A definição originalmente adotada no projeto apresenta forte convergência com a literatura ao considerar ambientes tridimensionais compartilhados, identidades digitais, interação, imersão e persistência. A interoperabilidade também aparece como dimensão relevante em trabalhos recentes, embora permaneça associada a desafios técnicos e de padronização.
+A definição inicial do projeto já continha elementos importantes, especialmente a ideia de um espaço digital compartilhado, interação por identidades digitais, representação tridimensional e experiências imersivas.
 
-A principal contribuição da revisão é, portanto, reorganizar a definição em camadas. A camada conceitual descreve o fenômeno; a camada tecnológica explica os mecanismos que podem sustentá-lo; e a camada aplicacional descreve os contextos nos quais o ecossistema pode ser utilizado.
+A literatura analisada acrescenta duas correções importantes. Primeiro, tecnologias como IA, XR e blockchain devem ser apresentadas como mecanismos habilitadores, e não como sinônimos do metaverso. Segundo, interoperabilidade e persistência devem ser tratadas como propriedades ou objetivos arquiteturais cuja implementação pode variar entre sistemas.
 
-\section{Limitação dos resultados quantitativos}
+A economia digital também deve ser apresentada como uma dimensão possível do ecossistema, e não como requisito suficiente para caracterizar um ambiente.
 
-Os números publicados por outras revisões foram utilizados apenas como referência metodológica. O presente trabalho não atribui a si esses quantitativos.
+\section{Resultado consolidado}
 
-O fluxograma PRISMA numérico desta pesquisa permanece dependente da execução das strings diretamente nas interfaces das bases selecionadas e do registro dos resultados retornados em cada uma delas. Essa limitação é explicitada para preservar a validade do artigo e evitar que resultados de estudos anteriores sejam apresentados como se fossem dados coletados nesta revisão.
+O resultado central do trabalho é uma definição operacional que separa o que o metaverso é do que pode ser utilizado para implementá-lo. Essa separação torna a definição mais flexível e permite analisar projetos concretos sem depender de uma única plataforma ou tecnologia.
+
+Não foi produzido um resultado quantitativo próprio de prevalência de características na literatura. Tal resultado exigiria uma nova seleção sistemática dos estudos primários e uma codificação independente de cada estudo. Os números utilizados neste capítulo são exclusivamente aqueles documentados nas revisões citadas.
